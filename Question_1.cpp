@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iterator>
 #include <bits/stdc++.h>
+#include <conio.h>
 using namespace std;
 int end_node = 1;
 struct Trie
@@ -77,4 +78,6 @@ int main()
     else{
         cout<<"YES "<<f;
     }
+    getch();
+    return 0;
 }
